@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.nav-bar {
+    background-color: #0E1B16;
+}
+
+.nav-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul li a:hover {
+    border: solid white 3px;
+    border-radius: 50px;
+    transition: 300ms;
+}

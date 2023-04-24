@@ -19,6 +19,10 @@ const About = () => {
                     consectetur arcu in ex cursus feugiat. Nunc sollicitudin justo vitae lobortis malesuada. Curabitur
                     placerat blandit quam at hendrerit. Aenean dapibus ut risus pulvinar dictum.
 
+                    <section class='cv-btn'>
+                        <button> DOWNLOAD CV</button>
+                    </section>
+
                 </section>
             </section>
         </section>
