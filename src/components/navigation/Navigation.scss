@@ -2,27 +2,32 @@
 
 .nav-bar {
     background-color: #0E1B16;
+    height: fit-content;
+    padding: 20px;
 }
 
-.nav-tabs {
+.nav-tab {
+    list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
-ul li a {
+ul li {
+    margin: 5px;
+}
+
+.nav a {
     text-decoration: none;
     cursor: pointer;
     font-family: 'Montserrat';
     color: white;
-    margin: 10px;
-    padding: 10px;
 }
 
-ul li a:hover {
+.nav a:hover {
     border: solid white 3px;
+    color: white;
     border-radius: 50px;
     transition: 300ms;
 }

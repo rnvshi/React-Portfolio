@@ -1,10 +1,10 @@
 import React from 'react';
-import './Navigation.css';
+import './Navigation.scss';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <section class='nav-bar'>
-            <ul className="nav nav-tabs">
+        <section className='nav-bar'>
+            <ul className="nav nav-tab">
                 <li className="nav-item">
                     <a
                         href="#about"

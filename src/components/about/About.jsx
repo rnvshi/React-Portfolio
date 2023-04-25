@@ -1,16 +1,16 @@
 import React from 'react';
-import './About.css';
+import './About.scss';
 
 const About = () => {
     return (
-        <section class='about'>
-            <section class='container'>
-                <section class='content'>
+        <section className='about'>
+            <section className='container container-fluid'>
+                <section className='content'>
                     <span id='name'>ISHA RAHMAN</span>
                     <br></br>
                     <span id='title'><i>full-stack web developer</i></span>
                     <br></br>
-                    <section class="img"></section>
+                    <section className="img"></section>
 
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue felis, auctor vitae tortor vel,
                     interdum vehicula enim. Fusce vulputate eros at risus imperdiet rhoncus. Sed at quam et sapien mattis
@@ -19,7 +19,7 @@ const About = () => {
                     consectetur arcu in ex cursus feugiat. Nunc sollicitudin justo vitae lobortis malesuada. Curabitur
                     placerat blandit quam at hendrerit. Aenean dapibus ut risus pulvinar dictum.
 
-                    <section class='cv-btn'>
+                    <section className='cv-btn'>
                         <button> DOWNLOAD CV</button>
                     </section>
 
