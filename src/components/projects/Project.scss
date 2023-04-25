@@ -1,4 +1,6 @@
 @import '../../../node_modules/@coreui/coreui/scss/coreui.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 $carousel-control-color: $high-emphasis-inverse;
 $carousel-control-width: 15%;
@@ -34,18 +36,88 @@ $carousel-dark-control-icon-filter: invert(1) grayscale(100);
 
 .carousel {
     padding: 20px;
+    width: 80%;
+    height: 80%;
 }
 
 .carousel-inner {
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project {
     height: 100vh;
-    background-color: #0E1B16;
+    width: 100%;
+    background-image: url('../../assets/green-gradient.jpg');
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+}
+
+.glass {
+    height: fit-content;
+    width: 80%;
+    background: inherit;
+    padding: 20px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.glass:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .15);
+    filter: blur(10px);
+    background: inherit;
+    margin: -20px;
+}
+
+.shadow {
+    background-color: #0E1B16;
+    opacity: 70%;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.text {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#title {
+    font-family: 'Poltawski Nowy';
+}
+
+#blurb {
+    font-family: 'Montserrat';
+}
+
+
+// to correct for hidden overflow on larger screens
+
+@media screen and (min-width: 1000px) {
+
+    .project {
+        height: 100%;
+    }
 }
