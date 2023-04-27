@@ -44,11 +44,10 @@
     margin: -20px;
 }
 
-#name {
+#proName {
     font-family: 'Montserrat';
     font-weight: 200;
     font-size: 30px;
-    color: white;
 }
 
 #title {
@@ -57,14 +56,15 @@
     font-family: 'Poltawski Nowy';
 }
 
-.img {
-    height: 150px;
-    width: 150px;
+#avatar {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    background-color: white;
     display: inline block;
     margin-left: auto;
     margin-right: auto;
+    margin: 5px;
 }
 
 .cv-btn button {

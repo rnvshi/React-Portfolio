@@ -1,26 +1,36 @@
 import React from 'react';
 import './About.scss';
+import Avatar from '../../assets/avatar.png';
+import Resume from '../../assets/resume.pdf';
 
 const About = () => {
     return (
         <section className='about'>
             <section className='container container-fluid'>
                 <section className='content'>
-                    <span id='name'>ISHA RAHMAN</span>
+                    <span id='proName'>ISHA RAHMAN</span>
                     <br></br>
                     <span id='title'><i>full-stack web developer</i></span>
                     <br></br>
-                    <section className="img"></section>
+                    <img src={Avatar} id='avatar' alt='avatar'></img>
 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue felis, auctor vitae tortor vel,
-                    interdum vehicula enim. Fusce vulputate eros at risus imperdiet rhoncus. Sed at quam et sapien mattis
-                    vehicula. Nam molestie, nulla sit amet congue tristique, mi eros ullamcorper diam, quis gravida mi ex
-                    a massa. Fusce a tellus sit amet orci consequat cursus. Phasellus eget condimentum sapien. Donec
-                    consectetur arcu in ex cursus feugiat. Nunc sollicitudin justo vitae lobortis malesuada. Curabitur
-                    placerat blandit quam at hendrerit. Aenean dapibus ut risus pulvinar dictum.
+                    <p>
+                        Hello and welcome to my little corner of the Internet !
+                        My name is Isha and I am a lab technician turned budding web developer
+                        currently embarking on a journey in full-stack. Over a short period of
+                        time I've picked up and refined my skills in HTML5, CSS, JavaScript,
+                        Node.js, mySQL, MongoDB, Express, object-oriented programming, and
+                        creating progressive web applications, among many others. This website is a demonstration
+                        of what I have learned so far, though I'm eager to deepen my knowledge
+                        even more.
+                        <br></br>
+                        Please enjoy your stay.
+                    </p>
 
                     <section className='cv-btn'>
-                        <button> DOWNLOAD CV</button>
+                        <a href={Resume} download>
+                            <button> DOWNLOAD CV</button>
+                        </a>
                     </section>
 
                 </section>
