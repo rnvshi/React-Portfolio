@@ -49,7 +49,10 @@ const Contact = () => {
             <section className='contact'>
                 <section className='contactForm'>
 
-                    <header>CONTACT ME</header>
+                    <header><i>contact me</i></header>
+                    <p id='contactText'>
+                        Have further questions or want to reach out for a chat ? Don't be shy.
+                    </p>
 
                     <form id="form">
 
