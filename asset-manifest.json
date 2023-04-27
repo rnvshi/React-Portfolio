@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.ca866a13.css",
+    "main.js": "/React-Portfolio/static/js/main.01468144.js",
+    "static/media/avatar.png": "/React-Portfolio/static/media/avatar.d9f5febed87092cf8806.png",
+    "static/media/about-background.jpg": "/React-Portfolio/static/media/about-background.a6a92dc6cafbefc77219.jpg",
+    "static/media/green-gradient.jpg": "/React-Portfolio/static/media/green-gradient.2f66c94f75d4c6cb338b.jpg",
+    "static/media/live-sound-searcher.png": "/React-Portfolio/static/media/live-sound-searcher.eca20dfa648517dd0223.png",
+    "static/media/daily-tasks.png": "/React-Portfolio/static/media/daily-tasks.2dbb2d82f75f7a80e299.png",
+    "static/media/weather-dashboard.png": "/React-Portfolio/static/media/weather-dashboard.b2c5d27ececabc960b1e.png",
+    "static/media/team-profile.png": "/React-Portfolio/static/media/team-profile.8804472dab47e3f533a9.png",
+    "static/media/eats-match.png": "/React-Portfolio/static/media/eats-match.bce56ee678513950cb18.png",
+    "static/media/e-commerce-backend.png": "/React-Portfolio/static/media/e-commerce-backend.0ca6ca819302fdad2012.png",
+    "static/media/mini-quiz.png": "/React-Portfolio/static/media/mini-quiz.d6a76fa047d9adc7b069.png",
+    "static/media/pwa-text-editor.png": "/React-Portfolio/static/media/pwa-text-editor.a1b860b2ecdd61292922.png",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.fc19b284ba9a186f4f06.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.ca866a13.css.map": "/React-Portfolio/static/css/main.ca866a13.css.map",
+    "main.01468144.js.map": "/React-Portfolio/static/js/main.01468144.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca866a13.css",
+    "static/js/main.01468144.js"
+  ]
+}
