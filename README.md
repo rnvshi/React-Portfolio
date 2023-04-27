@@ -18,40 +18,24 @@ No installation required. Find the live website at https://rnvshi.github.io/Reac
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Below is a screenshot of the desktop website:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+<img width="1431" alt="Screenshot 2023-04-27 at 12 38 50 AM" src="https://user-images.githubusercontent.com/117702694/234760919-f96c3e7a-d4e8-4153-91b6-ca6f1f942fe1.png">
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+About page monstera background: Aditya Diyar (Pexels)
+Green gradient background: J Lee (Pexels)
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Frosted glass CSS effect:
 
-If you followed tutorials, include links to those here as well.
+https://webdesign.tutsplus.com/tutorials/how-to-create-a-frosted-glass-effect-in-css--cms-32535
+
+GitHub deployment:
+
+https://www.youtube.com/watch?v=Q9n2mLqXFpU
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License.
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an 
