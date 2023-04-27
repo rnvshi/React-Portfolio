@@ -25,6 +25,7 @@ Below is a screenshot of the desktop website:
 ## Credits
 
 About page monstera background: Aditya Diyar (Pexels)
+<br>
 Green gradient background: J Lee (Pexels)
 
 Frosted glass CSS effect:
